@@ -24,6 +24,9 @@ import audImg from "../gaud.png";
 import aedImg from "../gaed.png";
 import ghsImg from "../gghs.png";
 import copImg from "../gcop.png";
+import zarImg from "../gzar.png";
+import ngnImg from "../gngn.png";
+import kesImg from "../gkes.png";
 
 class Currency {
   id = 0;
@@ -237,6 +240,33 @@ const CurrencyList = {
     "Ghanian Cedi",
     ghsImg,
     "TNYsoACVMVWwSPpj358HAu8EBEc5quzW3W" /*gStableAddress nile*/,
+//   "---" /*gStableAddress mainnet*/,
+  ),
+  ZAR: new Currency(
+    30,
+    "ZAR",
+    "gZAR",
+    "South African Rand",
+    zarImg,
+    "TY2h18u8w7MDYZPJTqqzWbZx64YYqSY71y" /*gStableAddress nile*/,
+//   "---" /*gStableAddress mainnet*/,
+  ),
+  NGN: new Currency(
+    31,
+    "NGN",
+    "gNGN",
+    "Nigerian Naira",
+    ngnImg,
+    "TSPYHAkk1dGSrzbePavZpAz61EnUtYTFYn" /*gStableAddress nile*/,
+//   "---" /*gStableAddress mainnet*/,
+  ),
+  KES: new Currency(
+    32,
+    "KES",
+    "gKES",
+    "Kenyan Shilling",
+    kesImg,
+    "TFtHWkmp6snaJk6AuEsUATLUdGjFdfhcBu" /*gStableAddress nile*/,
 //   "---" /*gStableAddress mainnet*/,
   ),
   COP: new Currency(
