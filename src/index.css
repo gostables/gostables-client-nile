@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg {
+/*    background: linear-gradient(180deg, #01948d 300px, #e6fbea 0%)!important;*/
+  background-color: #01948d !important;
+}
+
+.navbar a {
+    color: #fff!important;
+}
+
+.navbar-brand .badge-info {background-color: #000!important;}
+
+.text-left{float: left;}
+.text-right{float: right;}
+
+.pt-x {
+  padding-top: 2rem!important;
+  padding-bottom: 2rem!important;
+}
+
+.px-2 img {
+    margin-right: 10px;
+}
+
+.py-x{
+    padding-top: 0rem!important;
+    padding-bottom: 1rem!important;
+}
+
+.mt-20{margin-top: 20px;}
+
+.currency-select{
+  margin-left: 20px;
+  margin-right: 40px;
+  width:277px!important;
+}
+
+li.nav-item {
+    font-weight: 500;
+}
+
+.navbar-nav {padding-right: 42px;}
+
+.navbar-expand-lg .navbar-collapse.show .web3-connect {margin-top: 30px;}
+
+.navbar-expand-lg .navbar-collapse.show .currency-select{
+  margin-top: 30px;
+}
+
+.modal-content a.nav-link.active {
+    border-bottom: 2px solid;
+    margin-bottom: 20%;
+}
+
+.vault-card .vault-item {
+  box-shadow: 1px 2px 20px #9e9e9e;
+  margin-top: 30px!important
+ }
+
+.select__control, .wallet-btn{border-radius: 20px!important;}
+
+.swap-btn{padding: 15px!important;}
+
+.web3-dark:hover{
+  background-color: #434343!important;
+}
+.web3-dark{
+  background-color: #111!important;
+}
+
+.web3-dark svg {
+    margin: 3px 0px 0px 18px;
+}
+
+.web3-connect{
+    background: #01948d;
+    color: #fff!important;
+    border-radius: 12px!important;
+    box-shadow: 0px 0px 3px #074643;
+/*    width: 220px;*/
+}
+
+.coming-soon{padding: 50px;}
+
+.wallet-btn{margin-right: 30px;}
+
+.web3-connect .text-success{
+  color: #fff!important;
+  font-size: 12px;
+  padding-top: 3px;
+}
+
+
+.web3-connect .text-warning{
+  color: #fff!important;
+  font-size: 12px;
+  padding-top: 3px;
+}
+
+.wallet-card .card-body, .dash-card .card-body, .swap-card .card-body, .vault-card .card-body{
+  border: 1px solid lightgrey;
+  margin: 20px 25px 0px 25px;
+  border-radius: .4rem;
+  background-color: #fff;
+}
+
+.wallet-card .card-header, .dash-card .card-header, .swap-card .card-header, .vault-card .card-header{
+  border: none!important;
+  margin-top: 0px;
+}
+
+/* .vault-card .card-header{  margin-top: 20px!important;} */
+
+.wallet-card, .dash-card, .vault-card, .swap-card {
+  padding-bottom: 40px;
+  background-color: transparent!important;
+/*  background: linear-gradient(180deg, #01948d 213px, #e6fbea 0%)!important;*/
+  /*border: none!important;*/
+}
+
+.wallet-card .small{margin-top: 2px!important;}
+
+.dash-card .card-body p{
+  margin-bottom: 0px!important;
+    margin-top: 5px!important;
+    color: #000;
+}
+
+.vault-type{
+  padding: 8px;
+  background-color: #01948d;
+  color: #fff!important;
+  border-radius: 50px;
+}
+
+.vault-item img{
+  margin-top: -32px;
+  margin-right: 15px;
+}
+
+.vault-modal .vault-img{
+  margin-top: -10px;
+  margin-right: 15px;
+}
+
+.vault-deposit{
+      padding: 15px!important;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px!important;
+}
+
+.currency-name img{
+  margin-top: 0px!important;
+  margin-right: 5px!important;
+}
+
+.currency-name{display: inline-block!important;}
+
+
+.vault-deposit{
+    margin-bottom: 40px;
+    border-bottom: 1px solid #00000020;
+    padding: 11px;
+}
+
+
+.lock-icon{
+    background-color: #ff7851;
+}
+
+.unlock-icon{
+    background-color: #01948d;
+}
+
+.lock-icon, .unlock-icon{
+    padding: 8px 12px;
+    color: #fff;
+    margin-right: 5px;
+    border-radius: 12px;
+}
+
+.empty-img {margin-top: 50px;}
+
+.empty-img img{
+  opacity: 0.15;
+  height: 80px;
+}
+
+.card-header.portfolio-bal, .card-header.dashboard{
+  background-color: #01948d;
+  color: #fff;
+}
+
+
+.dash-card, .wallet-card, .swap-card .vault-card, .faucet{
+  min-height: 630px;
+}
+
+.currency-selector select{
+  border-radius: 30px;
+}
+
+.dash-stats {
+/*    margin-top: -2rem;
+    background-color: #01948d;
+    color: #fff;
+    border-radius: 12px 12px 0 0;*/
+}
+
+.dash-card button.w-100 {
+  margin-top: 20px;
+  height: 3rem;
+}
+
+.dash-card ul {
+    border-bottom: 1px solid #eee;
+}
+
+.list-group span.px-3 {
+    font-weight: 500;
+}
+
+.dash-card .list-group-flush {
+    padding-bottom: 25px;
+  }
+.dash-card .list-group a {
+    text-decoration: none!important;
+  }
+
+.dash-card .list-group li:hover {
+    background-color:#e6fbea;
+  }
+
+.font-monospace img{
+      margin-left: 5px;
+    margin-top: -3px;
+}
+
+.m-3{margin: 3px!important;}
+
+.bi-arrow-down-up:hover{cursor: pointer;}
+
