@@ -286,7 +286,7 @@ const CurrencyList = {
     33,
     "RUB",
     "gRUB",
-    "Russian Rubles",
+    "Russian Ruble",
     rubImg,
     "TUbfqwY9hoiNaeQufPfvz5FXD7w2jGLzQX" /*gStableAddress nile*/,
 //   "---" /*gStableAddress mainnet*/,
