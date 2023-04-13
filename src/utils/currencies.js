@@ -27,6 +27,10 @@ import copImg from "../gcop.png";
 import zarImg from "../gzar.png";
 import ngnImg from "../gngn.png";
 import kesImg from "../gkes.png";
+import inrImg from "../ginr.png";
+import rubImg from "../grub.png";
+import uahImg from "../guah.png";
+import gelImg from "../ggel.png";
 
 class Currency {
   id = 0;
@@ -206,6 +210,15 @@ const CurrencyList = {
     "TCgmFarW3w4ggbYcnShnSTfA1xF7YWmuxB" /*gStableAddress nile*/,
 //   "---" /*gStableAddress mainnet*/,
   ),
+  INR: new Currency(
+    18,
+    "INR",
+    "gINR",
+    "Indian Rupee",
+    inrImg,
+    "TNEkYuizmQmtRebkoVh6X3b7ABMGXxuSbA" /*gStableAddress nile*/,
+//   "---" /*gStableAddress mainnet*/,
+  ),
   CAD: new Currency(
     19,
     "CAD",
@@ -267,6 +280,33 @@ const CurrencyList = {
     "Kenyan Shilling",
     kesImg,
     "TFtHWkmp6snaJk6AuEsUATLUdGjFdfhcBu" /*gStableAddress nile*/,
+//   "---" /*gStableAddress mainnet*/,
+  ),
+  RUB: new Currency(
+    33,
+    "RUB",
+    "gRUB",
+    "Russian Rubles",
+    rubImg,
+    "TUbfqwY9hoiNaeQufPfvz5FXD7w2jGLzQX" /*gStableAddress nile*/,
+//   "---" /*gStableAddress mainnet*/,
+  ),
+  UAH: new Currency(
+    34,
+    "UAH",
+    "gUAH",
+    "Ukranian Hyrvnia",
+    kesImg,
+    "TLmBGyZjkghA4CwM7qjKUpS6PyHmeSU3hb" /*gStableAddress nile*/,
+//   "---" /*gStableAddress mainnet*/,
+  ),
+  GEL: new Currency(
+    35,
+    "GEL",
+    "gGEL",
+    "Georgian Lari",
+    gelImg,
+    "TRJLh5ihgREmvMyScQQyW75F4zvUAsWSWD" /*gStableAddress nile*/,
 //   "---" /*gStableAddress mainnet*/,
   ),
   COP: new Currency(
