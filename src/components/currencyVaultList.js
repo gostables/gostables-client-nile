@@ -1,7 +1,7 @@
 import React from "react";
 import { getCurrency } from "../utils/currencies";
 import CurrencyVault from "./currencyVault";
-import trxImg from "../trx.png";
+import trxImg from "../img/trx.png";
 import { useEffect, useState } from "react";
 import USDDIcon from "./iconUSDD";
 import { formatUSD } from "../utils/currencyFormatter";
