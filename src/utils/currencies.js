@@ -250,7 +250,7 @@ const CurrencyList = {
     41,
     "GHS",
     "gGHS",
-    "Ghanian Cedi",
+    "Ghanaian Cedi",
     ghsImg,
     "TNYsoACVMVWwSPpj358HAu8EBEc5quzW3W" /*gStableAddress nile*/,
 //   "---" /*gStableAddress mainnet*/,
