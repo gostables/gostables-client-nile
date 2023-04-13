@@ -296,7 +296,7 @@ const CurrencyList = {
     "UAH",
     "gUAH",
     "Ukranian Hyrvnia",
-    kesImg,
+    uahImg,
     "TLmBGyZjkghA4CwM7qjKUpS6PyHmeSU3hb" /*gStableAddress nile*/,
 //   "---" /*gStableAddress mainnet*/,
   ),
