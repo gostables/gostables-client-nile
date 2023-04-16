@@ -25,7 +25,7 @@ const CurrencyVault = (props) => {
     };
   }, []);
 
-  const vaultTimer = vaultDetails.interval / 1440 * 24;
+  const vaultTimer = vaultDetails.interval;
 
   const [walletData, setWalletData] = useState({
     isSupportedNetwork: false,
