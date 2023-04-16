@@ -168,7 +168,7 @@ const CurrencyVault = (props) => {
                 <br />
                 <br />
                 <span className="small">
-                  New deposits are locked for {" "}{vaultTimer} hours.
+                  New deposits are locked for {" "}{vaultTimer} minutes.
                 </span>
                 <br />
                 <span className="text-danger">
