@@ -232,7 +232,7 @@ const CurrencyList = {
     17,
     "IDR",
     "gIDR",
-    "Indonesian Rupee",
+    "Indonesian Rupiah",
     idrImg,
     "TZDGv8KXKkuWyW42y1R5LowCDRNS73PNYY" /*gStableAddress nile*/,
 //   "---" /*gStableAddress mainnet*/,
