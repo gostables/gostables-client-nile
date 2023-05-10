@@ -227,9 +227,9 @@ const SwapExchange = (props) => {
     return <></>;
   };
 
-  if (!currentNetworkSupported) {
-    return <NetworkNotSupported></NetworkNotSupported>;
-  }
+  //// if (!currentNetworkSupported) {
+  ////   return <NetworkNotSupported></NetworkNotSupported>;
+  //// }
   return (
     <>
     <div className="col"></div>
