@@ -162,25 +162,25 @@ const CurrencyList = {
 //     "gCUP",
 //     "Cuban Peso",
 //     cupImg,
-//     "---" /*gStableAddress nile*/,
+//     "TLtGaj5JJ7oDcYTzyV9XM1ipJZC498D4Tv" /*gStableAddress nile*/,
 //     // "---" /*gStableAddress mainnet*/,
 //   ),
-//   HTG: new Currency(
-//     10,
-//     "HTG",
-//     "gHTG",
-//     "Haitian Gourde",
-//     htgImg,
-//     "---" /*gStableAddress nile*/,
-//     // "---" /*gStableAddress mainnet*/,
-//   ),
+  HTG: new Currency(
+    10,
+    "HTG",
+    "gHTG",
+    "Haitian Gourde",
+    htgImg,
+    "TFziMsWN9HxypKazeatPUDmZQtFxxHZKZV" /*gStableAddress nile*/,
+    // "---" /*gStableAddress mainnet*/,
+  ),
 //   EUR: new Currency(
 //     11,
 //     "EUR",
 //     "gEUR",
 //     "Euro",
 //     eurImg,
-//     "TNLtM7F696Qjcc7Lj5krBqCAoXNzS2enQH" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 //     // "---" /*gStableAddress mainnet*/,
 //   ),
 //   GBP: new Currency(
@@ -189,7 +189,7 @@ const CurrencyList = {
 //     "gGBP",
 //     "British Pound",
 //     gbpImg,
-//     "TVnCkaJUjrek5H2xcVq9azLMVBLiyUAnvx" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 //     // "---" /*gStableAddress mainnet*/,
 //   ),
 //   CNH: new Currency(
@@ -198,7 +198,7 @@ const CurrencyList = {
 //     "gCNH",
 //     "Chinese Offshore Yuan",
 //     cnhImg,
-//     "TPhaYXi9Vsiy8mHB3XmVhdw81oK3mTh22j" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   HKD: new Currency(
@@ -207,7 +207,7 @@ const CurrencyList = {
 //     "gHKD",
 //     "Hong Kong Dollar",
 //     hkdImg,
-//     "TMtFngpiqqMbD3bBr4Q52H5ode8htZYUVx" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   SGD: new Currency(
@@ -216,7 +216,7 @@ const CurrencyList = {
 //     "gSGD",
 //     "Singaporean Dollar",
 //     sgdImg,
-//     "TCgmFarW3w4ggbYcnShnSTfA1xF7YWmuxB" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   THB: new Currency(
@@ -225,7 +225,7 @@ const CurrencyList = {
 //     "gTHB",
 //     "Thai Baht",
 //     thbImg,
-//     "TB6FLKkJCzWrLoXUf59DXqrx2yJeFyybuZ" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   IDR: new Currency(
@@ -234,7 +234,7 @@ const CurrencyList = {
 //     "gIDR",
 //     "Indonesian Rupiah",
 //     idrImg,
-//     "TZDGv8KXKkuWyW42y1R5LowCDRNS73PNYY" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   INR: new Currency(
@@ -243,7 +243,7 @@ const CurrencyList = {
 //     "gINR",
 //     "Indian Rupee",
 //     inrImg,
-//     "TNEkYuizmQmtRebkoVh6X3b7ABMGXxuSbA" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   CAD: new Currency(
@@ -252,7 +252,7 @@ const CurrencyList = {
 //     "gCAD",
 //     "Canadian Dollar",
 //     cadImg,
-//     "TSxJPmq2E3x8dkjKH3WXHiP98LsL8Q8WtJ" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   AUD: new Currency(
@@ -261,7 +261,7 @@ const CurrencyList = {
 //     "gAUD",
 //     "Australian Dollar",
 //     audImg,
-//     "TSZNuSom4zZoqysjyRJS5KfuycSPYhrrqG" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   JPY: new Currency(
@@ -270,7 +270,7 @@ const CurrencyList = {
 //     "gJPY",
 //     "Japanese Yen",
 //     jpyImg,
-//     "TF94kdQRB7iAtKBDHKZB722zGw4x5BkWqp" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   CHF: new Currency(
@@ -279,7 +279,7 @@ const CurrencyList = {
 //     "gCHF",
 //     "Swiss Franc",
 //     chfImg,
-//     "THDmfApaF51W2Kc88hPF9WohBV5PkuRDC2" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   KRW: new Currency(
@@ -288,7 +288,7 @@ const CurrencyList = {
 //     "gKRW",
 //     "South Korean Won",
 //     krwImg,
-//     "TLf8Ff4Qu1jMTt9SmA6W4XiraqSgtstBwU" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   TRY: new Currency(
@@ -297,7 +297,7 @@ const CurrencyList = {
 //     "gTRY",
 //     "Turkish Lira",
 //     tryImg,
-//     "TLj7Vi5jXTqczEwDPXF91qs7bz5a4M9EcF" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   ILS: new Currency(
@@ -306,7 +306,7 @@ const CurrencyList = {
 //     "gILS",
 //     "Israeli Shekel",
 //     ilsImg,
-//     "THqsYnbi1aTRrscQfht3LUN1RU1kPtMHGT" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   ZAR: new Currency(
@@ -315,7 +315,7 @@ const CurrencyList = {
 //     "gZAR",
 //     "South African Rand",
 //     zarImg,
-//     "TY2h18u8w7MDYZPJTqqzWbZx64YYqSY71y" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   NGN: new Currency(
@@ -324,7 +324,7 @@ const CurrencyList = {
 //     "gNGN",
 //     "Nigerian Naira",
 //     ngnImg,
-//     "TSPYHAkk1dGSrzbePavZpAz61EnUtYTFYn" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   KES: new Currency(
@@ -333,7 +333,7 @@ const CurrencyList = {
 //     "gKES",
 //     "Kenyan Shilling",
 //     kesImg,
-//     "TFtHWkmp6snaJk6AuEsUATLUdGjFdfhcBu" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   RUB: new Currency(
@@ -342,7 +342,7 @@ const CurrencyList = {
 //     "gRUB",
 //     "Russian Ruble",
 //     rubImg,
-//     "TUbfqwY9hoiNaeQufPfvz5FXD7w2jGLzQX" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   UAH: new Currency(
@@ -351,7 +351,7 @@ const CurrencyList = {
 //     "gUAH",
 //     "Ukranian Hyrvnia",
 //     uahImg,
-//     "TLmBGyZjkghA4CwM7qjKUpS6PyHmeSU3hb" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   GEL: new Currency(
@@ -360,7 +360,7 @@ const CurrencyList = {
 //     "gGEL",
 //     "Georgian Lari",
 //     gelImg,
-//     "TRJLh5ihgREmvMyScQQyW75F4zvUAsWSWD" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   AED: new Currency(
@@ -369,7 +369,7 @@ const CurrencyList = {
 //     "gAED",
 //     "UAE Dirham",
 //     aedImg,
-//     "TM9hBrFdzRUai5gfm1LvQqMAckNoNmYvAf" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   GHS: new Currency(
@@ -378,7 +378,7 @@ const CurrencyList = {
 //     "gGHS",
 //     "Ghanaian Cedi",
 //     ghsImg,
-//     "TNYsoACVMVWwSPpj358HAu8EBEc5quzW3W" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   COP: new Currency(
@@ -387,7 +387,7 @@ const CurrencyList = {
 //     "gCOP",
 //     "Colombian Peso",
 //     copImg,
-//     "TXnWSBPDgdb1DY4AviLYzBs6He69kyzTrd" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   BRL: new Currency(
@@ -396,7 +396,7 @@ const CurrencyList = {
 //     "gBRL",
 //     "Brazillian Real",
 //     brlImg,
-//     "TXx98qV2e7cQ2KFVavjjkHSChi9yrr7CJL" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   NPR: new Currency(
@@ -405,7 +405,7 @@ const CurrencyList = {
 //     "gNPR",
 //     "Nepali Rupee",
 //     nprImg,
-//     "TZ5Ro1dwnf1zqPDSnYkUK9Gk6BAu9aZoB5" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   OMR: new Currency(
@@ -414,7 +414,7 @@ const CurrencyList = {
 //     "gOMR",
 //     "Omani Rial",
 //     omrImg,
-//     "TGobH9QMavFP8MJcGoNXBMAADQVgBE5Zuz" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 //   MYR: new Currency(
@@ -423,7 +423,7 @@ const CurrencyList = {
 //     "gMYR",
 //     "Malaysian Ringgit",
 //     myrImg,
-//     "TF6Ep8972xWmZc2qHXAnJjvxiLY8vnxHPb" /*gStableAddress nile*/,
+//     "---" /*gStableAddress nile*/,
 // //   "---" /*gStableAddress mainnet*/,
 //   ),
 };
