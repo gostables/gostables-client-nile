@@ -281,7 +281,7 @@ const SwapExchange = (props) => {
               Swap
             </button>
             <div className="text-xs mt-20 d-flex justify-content-center">
-                  <b>Fee ({swapFeesFactor * 100}%)</b>: ≈{" "}
+                  <b>Fee</b>: ≈{" "}
                   {formatUSD(stableCoinValue * swapFeesFactor)}
             </div>
             
