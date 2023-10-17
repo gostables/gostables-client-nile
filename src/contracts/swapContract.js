@@ -30,6 +30,11 @@ class SwapContract extends SmartContractBase {
     let c = await this.contract.gStableSwapFeesFactorMap(currencyId).call();
     return c / 10000;
   };
+  getReservePercent = async (currencyId) => {
+    this.check();
+    let c = await this.contract.gStableReservePCMap(currencyId).call();
+    return c / 10000;
+  };
   getRewardsPercent = async () => {
     this.check();
     let c = await this.contract.rewardPC().call();
@@ -60,22 +65,22 @@ class SwapContract extends SmartContractBase {
     return result;
   };
 
-  withdraw = async (currencyId, _val) => {
+  redeem = async (currencyId, _val) => {
     this.check();
     if (!_val) throw new Error(`Number : ${_val}`);
 
-    console.log("withdraw", this.web3.utils.toWei(String(_val), "ether"));
+    console.log("redeem", this.web3.utils.toWei(String(_val), "ether"));
     let result = null;
     try {
       result = await this.contract
-        .withdraw(currencyId, this.web3.utils.toWei(String(_val), "ether"))
+        .redeem(currencyId, this.web3.utils.toWei(String(_val), "ether"))
         .send({
           feeLimit: 200_000_000,
           callValue: 0,
           shouldPollResponse: false,
         });
     } catch (error) {
-      console.error("withdrawError", error);
+      console.error("redeemError", error);
     }
     return result;
   };

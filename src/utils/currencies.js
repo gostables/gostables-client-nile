@@ -4,6 +4,7 @@ import VaultUSDDFactory from "./vaultUSDDFactory";
 import MarketFactory from "./marketFactory";
 
 
+import gusdImg from "../img/usddg.png";
 import ttddImg from "../img/ttdd.png";
 import xcddImg from "../img/gxcd.png";
 import bbddImg from "../img/gbbd.png";

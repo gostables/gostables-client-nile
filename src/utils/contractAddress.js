@@ -1,6 +1,7 @@
 // Nile
 const gStableManagerContractAddress = "TF6GzQVGWk5PKcidG7bCCmQHYVqRQDtHNw";
-const SwapUSDDContractAddress = "TAQYVNxzFB2jFSJCFhk7QqVebdP7c77cJk";
+const SwapUSDDContractAddress = "TUPBpoqxSGrEcBRRgo6KVF4cVEmAz24nk8"; //Latest version with Reserves
+// const SwapUSDDContractAddress = "TAQYVNxzFB2jFSJCFhk7QqVebdP7c77cJk";
 const VaultUSDDContractAddress = "TFUJuP19G43S6qFSWoRoabmC2VvL1dFUPc";
 const MarketContractAddress = "TQq9o4PahyoLociVzCnBMRRDdPZrNNkW1f";
 

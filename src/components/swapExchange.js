@@ -22,6 +22,7 @@ const SwapExchange = (props) => {
 
   const [conversionRatio, setConversionRatio] = useState();
   const [swapFeesFactor, setSwapFeesFactor] = useState(0);
+  const [reservePercent, setReservePercent] = useState(0);
   const [trxHash, setTRXHash] = useState(null);
 
   const [currencyKey, setCurrencyKey] = useState(props.currencyKey);
@@ -50,7 +51,8 @@ const SwapExchange = (props) => {
     let swapContract = await currency.swapContract();
     let conversionRatio = await swapContract.getConversion(currency.id);
     let swapFeesFactor = await swapContract.getSwapFeesFactor(currency.id);
-    setSwapDetails({ conversionRatio, swapFeesFactor });
+    let reservePercent = await swapContract.getReservePercent(currency.id);
+    setSwapDetails({ conversionRatio, swapFeesFactor, reservePercent });
     getSwapPublisherByCurrencyKey(currencyKey).attach(setSwapDetails);
   };
 
@@ -70,6 +72,7 @@ const SwapExchange = (props) => {
   const setSwapDetails = async (swapDetails) => {
     setConversionRatio(swapDetails.conversionRatio);
     setSwapFeesFactor(swapDetails.swapFeesFactor);
+    setReservePercent(swapDetails.reservePercent);
   };
 
   const updateStableCoinValue = (e) => {
@@ -77,7 +80,7 @@ const SwapExchange = (props) => {
     setStableCoinValue(e.target.value);
     console.log("converted : ", e.target.value * conversionRatio);
     setTokenValue(
-      (e.target.value - e.target.value * swapFeesFactor) * conversionRatio
+      (e.target.value - e.target.value * (reservePercent + swapFeesFactor)) * conversionRatio
     );
   };
   // added to support network changes
@@ -187,7 +190,7 @@ const SwapExchange = (props) => {
       hash = await swapContract.deposit(currency.id, stableCoinValue);
     } else {
       //swap currency for USD
-      hash = await swapContract.withdraw(currency.id, tokenValue);
+      hash = await swapContract.redeem(currency.id, tokenValue);
     }
     if (hash) setTRXHash(hash);
   };
@@ -281,8 +284,13 @@ const SwapExchange = (props) => {
               Swap
             </button>
             <div className="text-xs mt-20 d-flex justify-content-center">
-                  <b>Fee</b>: ≈{" "}
-                  {formatUSD(stableCoinValue * swapFeesFactor)}
+                {direction ? (<>
+                  <b>Reserve</b>: ≈{" "}
+                  {formatUSD(stableCoinValue * reservePercent)}
+                  &nbsp;|&nbsp; <b>Swap Fee</b>: ≈{" "}
+                  {formatUSD(stableCoinValue * swapFeesFactor)} </>) : (<><b>Swap Fee</b>: ≈{" "}
+                  {formatUSD(stableCoinValue * swapFeesFactor)}</>)
+                }
             </div>
             
           </div>

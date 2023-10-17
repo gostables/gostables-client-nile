@@ -4,6 +4,7 @@ import { gStableManagerContract } from "../contracts/gStableManagerContract";
 export let swapDetails = {
   conversionRatio: "",
   swapFeesFactor: 0,
+  reservePercent: 0,
 };
 
 class SwapPublisher {
@@ -50,6 +51,15 @@ class SwapPublisher {
         }
         this.swapDetails.swapFeesFactor =
           await swapContract.getSwapFeesFactor(this.currency.id);
+      } catch (error) {
+        console.error(error);
+      }
+      try {
+        if(this.currency == null){
+          throw new Error("Currency not set in SwapPublisher")
+        }
+        this.swapDetails.reservePercent =
+          await swapContract.getReservePercent(this.currency.id);
       } catch (error) {
         console.error(error);
       }
